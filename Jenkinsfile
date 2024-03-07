@@ -1,6 +1,7 @@
 pipeline {
     agent any
     parameters {
+         //text(name: 'FILE', defaultValue: '', description: 'Enter some information about the person')
          stashedFile 'teste2.txt'
     }
     stages {
